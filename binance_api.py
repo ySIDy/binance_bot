@@ -16,7 +16,12 @@ def main():
     
     
     
-
+def get_curancy_data(symbol):
+    client = Client("1", "1", testnet=True)
+    #tld='ua'
+    res = client.get_exchange_info()
+    data = client.get_order_book(symbol=symbol)
+    return data
 
 
 
