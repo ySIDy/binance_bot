@@ -1,7 +1,11 @@
 .background{
-    height: 2000px;
+    height: 100%;
     width: 100%;
-    background-color: black;
+
+    background-image: url("/static/img/background1.jpg");
+    background-repeat: no-repeat;
+
+
 }
 
 body {
